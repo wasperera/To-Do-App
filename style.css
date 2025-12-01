@@ -17,6 +17,10 @@ body {
     margin: 0;
 }
 
+h1 {
+    color: rgba(24, 4, 4, 0.7);
+}
+
 .main {
 
     height: 480px;
@@ -35,11 +39,19 @@ body {
 }
 
 .addTask {
-    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: aliceblue !important;
     background-color: rgba(40, 132, 212, 0.545);
+    
     height: 40px;
     width: 270px;
     border-radius: 18px;
-    bottom: 20px;
+
+    text-align: center;
+    text-decoration: none;
     
 }
+
